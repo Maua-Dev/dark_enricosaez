@@ -12,6 +12,29 @@ body {
     /* Não altere nada aqui dentro */
     height: 100vh;
     width: 100%;
+    font-weight: 700;
+    color: #1D1D1D;
+}
+
+.container {
+    display: flex;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    height: 100vh;
+}
+
+.button {
+    position: absolute; bottom: 10rem; right: 10rem; padding: 2rem; padding-left: 4rem; padding-right: 4rem; background-color: #13E3FF;
+}
+
+a:hover {
+    color: #FFFFFF;
+    transition: 0.3s ease;
 }
 
 :root {
